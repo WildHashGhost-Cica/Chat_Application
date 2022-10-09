@@ -11,7 +11,7 @@ fn sleep(){
 }
 
 fn main() {
-    let mut x = 5;
+    
     let server = TcpListener::bind(LOCAL).expect("Listener failed to bind");
     server.set_nonblocking(true).expect("failed to initialize non-blocking");
 
